@@ -10,10 +10,22 @@
       "version": "1.0.0",
       "address": "gamesmc.de",
       "minecraftVersion": "1.21.8",
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "javaOptions": null,
-      "modules": []
+
+      "modules": [
+        {
+          "id": "net.fabricmc.fabric-loader",
+          "type": "FabricHosted",
+          "version": "0.16.5"
+        },
+        {
+          "id": "net.minecraft",
+          "type": "version",
+          "version": "1.21.8"
+        }
+      ]
     }
   ]
 }
