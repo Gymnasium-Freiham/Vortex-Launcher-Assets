@@ -1,20 +1,19 @@
- {
-  version: '1.0.0',
-  rss: 'https://www.minecraft.net/en-us/feeds/community-content/rss',
-  servers: [
+{
+  "version": "1.0.0",
+  "rss": "https://www.minecraft.net/en-us/feeds/community-content/rss",
+  "servers": [
     {
-      id: 'gamesmc.de-1.21.8',
-      name: 'gamesmc.de (Minecraft 1.21.8)',
-      description: 'gamesmc.de Running Minecraft 1.21.8',
-      icon: null,
-      version: '1.0.0',
-      address: 'gamesmc.de',
-      minecraftVersion: '1.21.8',
-
-      mainServer: false,
-      autoconnect: false,
-      javaOptions: undefined,
-      modules: []
+      "id": "gamesmc.de-1.21.8",
+      "name": "gamesmc.de (Minecraft 1.21.8)",
+      "description": "gamesmc.de Running Minecraft 1.21.8",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "gamesmc.de",
+      "minecraftVersion": "1.21.8",
+      "mainServer": false,
+      "autoconnect": false,
+      "javaOptions": null,
+      "modules": []
     }
   ]
 }
